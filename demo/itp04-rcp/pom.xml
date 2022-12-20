@@ -27,6 +27,7 @@ Contributors:
 	<modules>
 		<module>eclipse-repository</module>
 		<module>example-bundle</module>
+		<module>example-bundle-2</module>
 		<module>example-feature</module>
 		<module>example-feature-2</module>
 		<module>mars</module>
