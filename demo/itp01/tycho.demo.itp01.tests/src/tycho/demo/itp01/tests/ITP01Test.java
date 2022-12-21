@@ -12,22 +12,16 @@
  *******************************************************************************/
 package tycho.demo.itp01.tests;
 
-import org.eclipse.ui.IWorkbench;
-import org.eclipse.ui.PlatformUI;
 import org.junit.Test;
 
-import tycho.demo.itp01.actions.SampleAction;
+import tycho.demo.itp.Bar;
 
 public class ITP01Test {
 
     @Test
-    public void sampleAction() {
-        IWorkbench workbench = PlatformUI.getWorkbench();
-
-        SampleAction action = new SampleAction();
-        action.init(workbench.getActiveWorkbenchWindow());
-
-//		action.run(null);
+    public void test() {
+        System.err.println("Hello from BarIT test");
+        Bar bar = new Bar();
+        bar.test();
     }
-
 }
