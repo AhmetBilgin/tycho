@@ -20,7 +20,7 @@ function toInt(){
 function cleanVerify(){
 	pushd .
 	cd $baseDir
-	mvn --settings /d/p4ws/abi_m/vobs/root/system/build/maven-settings.xml clean verify
+	mvn clean verify
 	ls -la $fooClass $barClass
 	javapOutput $fooClass
 	javapOutput $barClass
@@ -30,7 +30,7 @@ function cleanVerify(){
 function verify(){
 	pushd .
 	cd $baseDir
-	mvn --settings /d/p4ws/abi_m/vobs/root/system/build/maven-settings.xml verify
+	mvn verify
 	ls -la $fooClass $barClass
 	javapOutput $fooClass
 	javapOutput $barClass
