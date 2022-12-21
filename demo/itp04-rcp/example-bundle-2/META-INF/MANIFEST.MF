@@ -1,13 +1,15 @@
 Manifest-Version: 1.0
 Bundle-ManifestVersion: 2
-Bundle-Name: Bundle
-Bundle-SymbolicName: example-bundle-2;singleton:=true
+Bundle-Name: Example Bundle 2
+Bundle-SymbolicName: example-bundle2
 Bundle-Version: 0.1.0.qualifier
 Bundle-Activator: example.bundle2.Activator
 Require-Bundle: org.eclipse.core.runtime,
  org.eclipse.swt;bundle-version="3.6.0",
  org.eclipse.ui;bundle-version="3.6.0",
- example-bundle
-Bundle-ActivationPolicy: lazy
+ example-bundle,
+ org.junit.jupiter.api;bundle-version="5.8.1"
 Bundle-RequiredExecutionEnvironment: J2SE-1.5
 Bundle-Vendor: Eclipse.org
+Main-Class: example.bundle2.BarIT
+Export-Package: example.bundle2

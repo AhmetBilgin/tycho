@@ -22,7 +22,7 @@ import org.osgi.framework.BundleContext;
 public class Activator extends AbstractUIPlugin {
 
     // The plug-in ID
-    public static final String PLUGIN_ID = "example-bundle-2";
+    public static final String PLUGIN_ID = "example-bundle2";
 
     // The shared instance
     private static Activator plugin;
